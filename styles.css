@@ -99,7 +99,7 @@ nav {
     width: 41.33%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -111,28 +111,36 @@ nav {
 }
 
 .email__submit {
-    width: 100%;
+    width: 85%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 2px;
+    /* padding: 20px 192px 20px 32px; */
     border-radius: 9999px;
     border: 2px solid #e5e7eb;
     overflow: hidden;
+    left: 0;
 }
 
 .email__submit--input {
+    font-size: 16px;
+    font-weight: bold;
     color: #e5e7eb;
+    padding: 20px 0 20px 32px;
+    align-self: center;
     border: none;
 }
 
 .email__submit--button {
+    width: 160px;
     font-size: 16px;
-    color: #f7fafc;
     font-weight: bold;
-    padding: 16px 0px;
-    background-color: #6415ff;
     color: #f7fafc;
+    padding: 15px;
+    margin-right: 5px;
+    background-color: #6415ff;
     border-radius: 9999px;
+    align-self: center;
     border: none;
 }
 
@@ -146,6 +154,7 @@ nav {
 
 .customers__logos {
     margin-top: 16px;
+    width: 76%;
 }
 
 .introduction__image {
