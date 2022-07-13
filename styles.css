@@ -331,14 +331,90 @@ VALUES
 
 */
 
+
+/* 
+
+PLANS
+
+*/
+
+
 .section__description--highlights {
     display: flex;
 }
 
-.highlight {
+.highlight {  
     display: flex;
 }
 
+
+
+/* 
+
+PRICING
+
+*/
+
+.plans__list {
+    width: 100%;
+    display: flex;
+}
+
+.plan {
+    width: calc(100% /3);
+    margin: 64px 32px 0 0;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+}
+
+.plan__wrapper {
+    margin: 8px 32px;
+}
+
+.plan__header--wrapper,
+.plan__body--wrapper,
+.plan__footer--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 32px 0;
+}
+
+.plan__name {
+    font-size: 20px;
+    color: #1A202C;
+    font-weight: 700;
+}
+
+.plan__price {
+    font-size: 48px;
+    color: #1A202C;
+    margin: 4px 0;
+    font-weight: 700;
+}
+
+.plan__duration {
+    font-size: 16px;
+    color: #A0AEC0;
+    font-weight: 600;
+}
+
+.plan__target {
+    font-size: 20px;
+    color: #1A202C;
+    font-weight: 600;
+}
+
+.plan__features {
+    font-size: 16px;
+    color: #718096;
+    margin: 20px 0 0 0;
+    font-weight: 500;
+}
 
 @media (max-width: 1280px) {
     .introduction__image {
