@@ -186,6 +186,10 @@ FEATURES
 
 */
 
+.features__description {
+    max-width: 1024px;
+    margin: 0 auto;
+}
 
 .features__description--wrapper {
     display: flex;
@@ -312,6 +316,29 @@ QUALITY WORK
     max-width: 640px;
     max-height: 411.17px;
 }
+
+/* 
+
+STEPS
+
+*/
+
+
+
+/* 
+
+VALUES
+
+*/
+
+.section__description--highlights {
+    display: flex;
+}
+
+.highlight {
+    display: flex;
+}
+
 
 @media (max-width: 1280px) {
     .introduction__image {
